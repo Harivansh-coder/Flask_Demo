@@ -1,1 +1,47 @@
-venv/
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go dependencies directory
+vendor/
+
+# Project-local glide cache, regenerated when running `glide install`
+.glide/
+
+# Compiled Object files
+*.o
+*.a
+
+# Backup files
+*~
+\#*\#
+
+# Directories
+_obj/
+_test/
+_tools/
+
+# Coverage profile files
+*.coverprofile
+
+# Project-localgo/
+bin/
+
+# Ignoring User environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
